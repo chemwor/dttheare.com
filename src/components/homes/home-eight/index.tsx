@@ -18,9 +18,9 @@ const HomeEight = () => {
       <Hero />
       <BLockFeatureOne />
       <PropertyListingOne />
-      <FancyBannerOne />
+      {/*<FancyBannerOne />*/}
       <BLockFeatureTwo />
-      <Category />
+      {/*<Category />*/}
       <BLockFeatureFour />
       <Feedback />
       <Blog style={true} />

@@ -6,11 +6,13 @@ import Feedback from "@/components/homes/home-six/Feedback";
 import Brand from "./Brand";
 import FancyBanner from "./FancyBanner";
 import FooterTwo from "@/layouts/footers/FooterTwo";
+import HeaderFive from "@/layouts/headers/HeaderFive";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 
 const AboutUsTwo = () => {
    return (
       <>
-         <HeaderTwo style_1={true} style_2={false} />
+          <HeaderOne style={true} />
          <BreadcrumbTwo title="About Agency" sub_title="About us" />
          <BLockFeatureOne />
          <BLockFeatureTwo />

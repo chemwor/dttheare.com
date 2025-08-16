@@ -210,7 +210,7 @@ const feature_data: DataType[] = [
       id: 1,
       page: "home_two_feature_3",
       icon: feature4Icon_1,
-      title: "Property Insurance",
+      title: "Submit Your Work",
       desc: "Elit esse cillum dolo fugiat nulla tur nos ullamo.",
    },
    {
@@ -264,7 +264,7 @@ const feature_data: DataType[] = [
       id: 1,
       page: "home_three_feature_2",
       icon: feature3Icon_4,
-      title: "Property Insurance",
+      title: "Submit Your Work",
       desc: "Elit esse cillum dolo fugiat nulla tur nos ullamo.",
    },
    {
@@ -351,22 +351,22 @@ const feature_data: DataType[] = [
       id: 1,
       page: "home_6_feature_1",
       icon:feature7Icon_1,
-      title: "Property Insurance",
-      desc: "Elit esse cillum dol fug nulla tur nos ullamo.",
+      title: "Submit Your Work",
+      desc: "Send your play or event concept, dates, and tech needs. Choose flat price or PWYW.",
    }, 
    {
       id: 2,
       page: "home_6_feature_1",
       icon:feature7Icon_2,
-      title: "Easy Payments",
-      desc: "quis nostrud exerct ulla security finibus ne derived.",
+      title: "Co-produce With Us",
+      desc: "We lock the venue, build your event page, set ticketing, and coordinate tech, rehearsal, and promo.",
    }, 
    {
       id: 3,
       page: "home_6_feature_1",
       icon:feature7Icon_3,
-      title: "Quick Process",
-      desc: "Duis aute irure do reprehe de Cicero's voluptat velit.",
+      title: "Grow Your Audience",
+      desc: "We activate our list and partners; you get a full room, smooth check-in, and post-show assets to keep momentum.",
    },
 ]
 

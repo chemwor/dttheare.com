@@ -8,7 +8,7 @@ const PropertyListingOne = () => {
             <div className="position-relative">
                <div className="title-one text-center mb-25 lg-mb-10 wow fadeInUp">
                   <h3>Upcoming Events</h3>
-                  <p className="fs-22 mt-xs">Explore featured properties for sale.</p>
+                  <p className="fs-22 mt-xs">From sneak previews to block-party pop-ups, see what’s about to go live.</p>
                </div>
 
                <div className="row gx-xxl-5">

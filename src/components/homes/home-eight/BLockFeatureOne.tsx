@@ -15,20 +15,20 @@ const feature_data: DataType[] = [
    {
       id: 1,
       icon: icon_1,
-      title: "2M+ Properties",
-      desc: (<>Legal expertise for Dubai property concerns.</>),
+      title: "Pick a show",
+      desc: (<>Flat-price nights or Pay What You Want experiences.</>),
    },
    {
       id: 2,
       icon: icon_2,
-      title: "BUY & RENT HOMES",
-      desc: (<>Sell your home fast at the best market price.</>),
+      title: "Reserve your spot",
+      desc: (<>PWYW requests are reviewed to keep the vibe intimate and accessible.</>),
    },
    {
       id: 3,
       icon: icon_3,
-      title: "Quick process",
-      desc: (<>It’s takes only 5 minutes to buy/sell your properties with homy</>),
+      title: "Show up",
+      desc: (<>We’ll send your ticket and check-in QR by email.</>),
    },
 ];
 
@@ -37,8 +37,8 @@ const BLockFeatureOne = () => {
       <div className="block-feature-one mt-150 xl-mt-120">
          <div className="container container-large">
             <div className="title-one text-center mb-60 xl-mb-30 lg-mb-20 wow fadeInUp">
-               <h3>Find a Perfect Home</h3>
-               <p className="fs-24">Your trusted real estate partner in every transaction.</p>
+               <h3>Step Into Culture</h3>
+               <p className="fs-24">Your night, simplified: choose, reserve, arrive.</p>
             </div>
 
             <div className="row gx-xl-5">

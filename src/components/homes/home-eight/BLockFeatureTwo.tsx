@@ -6,8 +6,8 @@ const BLockFeatureTwo = () => {
       <div className="block-feature-fourteen pt-120 xl-pt-100 pb-140 xl-pb-100 mt-170 xl-mt-120">
          <div className="container container-large">
             <div className="title-one text-center wow fadeInUp">
-               <h3 className="text-white">Why Choose Us</h3>
-               <p className="fs-24 mt-xs text-white">Your leading real estate advocate, transforming houses into dreams. </p>
+               <h3 className="text-white">Amplify Your Voice</h3>
+               <p className="fs-24 mt-xs text-white">Local roots, loud reach—connect with community and the city beyond.</p>
             </div>
 
             <div className="card-bg-wrapper wow fadeInUp mt-70 lg-mt-50">

@@ -9,7 +9,7 @@ const Hero = () => {
          <div className="container position-relative">
             <div className="row">
                <div className="col-xl-9 col-lg-10 col-md-10 m-auto">
-                  <h1 className="hero-heading text-white text-center wow fadeInUp">Find the Right <br /> Home for Your Family</h1>
+                  <h1 className="hero-heading text-white text-center wow fadeInUp">Culture In Action</h1>
                </div>
             </div>
          </div>
