@@ -14,7 +14,7 @@ const BLockFeatureFour = () => {
                   <div className="ps-xxl-5 ms-xl-4 pt-100 xl-pt-80 pb-45 w-100 h-100 wow fadeInRight">
                      <div className="title-one mb-60 lg-mb-40">
                         <div className="upper-title">Culture In Action</div>
-                        <h3>Get quick <span>estimate<Image src={titleShape} alt="" className="lazy-img" /></span> on your home.</h3>
+                        <h3>Get early access to <span>culture<Image src={titleShape} alt="" className="lazy-img" /></span></h3>
                         <p className="fs-24 color-dark">From premieres to neighborhood pop-ups, snag tickets early and never miss a night.</p>
                      </div>
                      <form onSubmit={(e) => e.preventDefault()} className="me-xl-4">
@@ -27,14 +27,14 @@ const BLockFeatureFour = () => {
 
                <div className="col-lg-6 d-flex">
                   <div className="img-gallery position-relative z-1 w-100 h-100 me-lg-5 wow fadeInLeft">
-                     <div className="img-bg" style={{ backgroundImage: `url(/assets/images/media/img_11.jpg)` }}></div>
-                     <div className="card-one">
-                        <div className="text text-center z-1">
-                           <h6>Your estimate is in!</h6>
-                           <h3>$378,30.00</h3>
-                        </div>
-                        <Image src={featureThumb} alt="" className="lazy-img w-100" />
-                     </div>
+                     <div className="img-bg" style={{ backgroundImage: `url(/assets/images/media/chat.jpg)` }}></div>
+                     {/*<div className="card-one">*/}
+                     {/*   <div className="text text-center z-1">*/}
+                     {/*      <h6>Your estimate is in!</h6>*/}
+                     {/*      <h3>$378,30.00</h3>*/}
+                     {/*   </div>*/}
+                     {/*   <Image src={featureThumb} alt="" className="lazy-img w-100" />*/}
+                     {/*</div>*/}
                   </div>
                </div>
             </div>
