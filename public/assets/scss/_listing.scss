@@ -417,12 +417,12 @@
     background-repeat: no-repeat;
     padding: 30px;
     height: 620px;
-    background-image: url(../images/listing/img_20.jpg);
+    background-image: url(../images/listing/firstfriday.jpeg);
     &.item-bg-2{
         background-image: url(../images/listing/img_21.jpg);
     }
     &.item-bg-3{
-        background-image: url(../images/listing/img_22.jpg);
+        background-image: url(../images/listing/kingfolk.jpeg);
     }
     &::before {
         content: '';
@@ -595,10 +595,10 @@
         background-size: cover;
         background-image: url(../images/listing/img_28.jpg);
         &.item-two{
-            background-image: url(../images/listing/img_29.jpg);
+            background-image: url(../images/listing/firstfriday.jpeg);
         }
         &.item-three{
-            background-image: url(../images/listing/img_23.jpg);
+            background-image: url(../images/listing/spotlight.jpeg);
         }
         &.item-four{
             background-image: url(../images/listing/img_24.jpg);

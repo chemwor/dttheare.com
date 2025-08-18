@@ -21,9 +21,9 @@ import propertyThumb_17 from "@/assets/images/listing/img_40.jpg";
 import propertyThumb_18 from "@/assets/images/listing/img_41.jpg";
 import propertyThumb_19 from "@/assets/images/listing/img_42.jpg";
 
-import propertyLargeThumb_1 from "@/assets/images/listing/img_large_01.jpg";
-import propertyLargeThumb_2 from "@/assets/images/listing/img_large_02.jpg";
-import propertyLargeThumb_3 from "@/assets/images/listing/img_large_03.jpg";
+import propertyLargeThumb_1 from "@/assets/images/listing/kingfolk.jpeg";
+import propertyLargeThumb_2 from "@/assets/images/listing/spotlight.jpeg";
+import propertyLargeThumb_3 from "@/assets/images/listing/firstfriday.jpeg";
 import propertyLargeThumb_4 from "@/assets/images/listing/img_large_04.jpg";
 import propertyLargeThumb_5 from "@/assets/images/listing/img_large_05.jpg";
 import propertyLargeThumb_6 from "@/assets/images/listing/img_large_06.jpg";

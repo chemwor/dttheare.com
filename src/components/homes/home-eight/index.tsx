@@ -23,7 +23,7 @@ const HomeEight = () => {
       {/*<Category />*/}
       <BLockFeatureFour />
       <Feedback />
-      <Blog style={true} />
+      {/*<Blog style={true} />*/}
       <FancyBannerTwo/>
       <FooterThree />
     </div>
