@@ -44,7 +44,7 @@ const LoginModal = ({ loginModal, setLoginModal }: any) => {
                            <div className={`tab-pane fade ${activeTab === 1 ? 'show active' : ''}`}>
                               <div className="text-center mb-20">
                                  <h2>Register</h2>
-                                 <p className="fs-20 color-dark">Already have an account? <Link href="#">Login</Link></p>
+                                 {/*<p className="fs-20 color-dark">Already have an account? <Link href="#">Login</Link></p>*/}
                               </div>
                               <RegisterForm />
                            </div>

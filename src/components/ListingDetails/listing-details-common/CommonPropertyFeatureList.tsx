@@ -1,34 +1,43 @@
-import property_feature_list from "@/data/inner-data/PropertyFeatureListData"
+"use client";
+import property_feature_sections, { Section } from "@/data/inner-data/PropertyFeatureSections";
 
 const CommonPropertyFeatureList = () => {
+   const sections: Section[] = property_feature_sections;
 
    return (
-      <div className="accordion" id="accordionTwo">
-         {property_feature_list.map((item) => (
-            <div key={item.id} className="accordion-item">
-               <h2 className="accordion-header">
-                  <button className={`accordion-button ${item.id === 1 ? "" : "collapsed"}`} type="button"
-                     data-bs-toggle="collapse" data-bs-target={`#collapse${item.id}`} aria-expanded="false"
-                     aria-controls={`collapse${item.id}`}>
-                     {item.title}
-                  </button>
-               </h2>
-               <div id={`collapse${item.id}`} className={`accordion-collapse collapse ${item.id === 1 ? "show" : ""}`}
-                  data-bs-parent="#accordionTwo">
-                  <div className="accordion-body">
-                     <div className="feature-list-two">
-                        <ul className="style-none d-flex flex-wrap justify-content-between">
-                           {item.feature_list.map((list, i) => (
-                              <li key={i}><span>{list.title} </span> <span className="fw-500 color-dark">{list.count}</span></li>
-                           ))}
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         ))}
-      </div>
-   )
-}
+       <div className="accordion" id="accordionTwo">
+          {sections.map((sec, idx) => {
+             const isFirst = idx === 0;
+             const collapseId = `collapse-${sec.id}`;
+             return (
+                 <div key={sec.id} className="accordion-item">
+                    <h2 className="accordion-header">
+                       <button
+                           className={`accordion-button ${isFirst ? "" : "collapsed"}`}
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target={`#${collapseId}`}
+                           aria-expanded={isFirst}
+                           aria-controls={collapseId}
+                       >
+                          {sec.title}
+                       </button>
+                    </h2>
+                    <div
+                        id={collapseId}
+                        className={`accordion-collapse collapse ${isFirst ? "show" : ""}`}
+                        data-bs-parent="#accordionTwo"
+                    >
+                       <div className="accordion-body">
+                          <p className="fs-18 lh-lg m-0">{sec.text}</p>
+                       </div>
+                    </div>
+                 </div>
+             );
+          })}
+       </div>
+   );
+};
 
 export default CommonPropertyFeatureList;
+

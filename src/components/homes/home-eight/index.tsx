@@ -22,7 +22,7 @@ const HomeEight = () => {
       <BLockFeatureTwo />
       {/*<Category />*/}
       <BLockFeatureFour />
-      <Feedback />
+      {/*<Feedback />*/}
       {/*<Blog style={true} />*/}
       <FancyBannerTwo/>
       <FooterThree />

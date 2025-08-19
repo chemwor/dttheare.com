@@ -24,7 +24,7 @@ const FooterFive = () => {
                               <input type="email" placeholder="Email address" className="rounded-0" />
                               <button className="rounded-0">Get Started</button>
                            </form>
-                           <div className="fs-16 mt-10 text-white"><span className="fw-light opacity-75">Already a Agent?</span> <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>
+                           {/*<div className="fs-16 mt-10 text-white"><span className="fw-light opacity-75">Already a Agent?</span> <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>*/}
                         </div>
                      </div>
                   </div>

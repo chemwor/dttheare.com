@@ -10,7 +10,7 @@ const CommonPropertyVideoTour = () => {
 
    return (
       <>
-         <h4 className="mb-40">Video Tour</h4>
+         <h4 className="mb-40">Trailer</h4>
          <div className="bg-white shadow4 border-20 p-15">
             <div className="position-relative border-15 image-bg overflow-hidden z-1">
                <Image src={videoImg} alt="" className="lazy-img w-100" />

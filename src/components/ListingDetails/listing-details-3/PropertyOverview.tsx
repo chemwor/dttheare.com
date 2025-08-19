@@ -4,7 +4,7 @@ import icon_1 from "@/assets/images/icon/icon_47.svg"
 import icon_2 from "@/assets/images/icon/icon_48.svg"
 import icon_3 from "@/assets/images/icon/icon_49.svg"
 import icon_4 from "@/assets/images/icon/icon_50.svg"
-import property_feature_list from "@/data/inner-data/PropertyFeatureListData"
+import property_feature_list from "@/data/inner-data/PropertyFeatureSections"
 
 interface DataType {
    id: number;

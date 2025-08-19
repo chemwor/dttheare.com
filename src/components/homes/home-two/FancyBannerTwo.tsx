@@ -9,7 +9,7 @@ const FancyBannerTwo = () => {
             <div className="row">
                <div className="col-xl-8 m-auto text-center">
                   <div className="title-one mb-40 lg-mb-20">
-                     <h2 className="font-garamond fs-xl text-white">Any Inquiry? Feel free To contact Us.</h2>
+                     <h2 className="font-garamond fs-xl text-white">Want your event hosted? Feel free to reach out.</h2>
                   </div>
                   <Link href="/contact" className="btn-nine text-uppercase"><span>SEND MESSAGE</span></Link>
                </div>

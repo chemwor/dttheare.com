@@ -1,5 +1,5 @@
 "use client"
-import property_feature_list from "@/data/inner-data/PropertyFeatureListData"
+import property_feature_list from "@/data/inner-data/PropertyFeatureSections"
 import CommonBanner from "../listing-details-common/CommonBanner"
 import MediaGallery from "./MediaGallery"
 import PropertyOverview from "./PropertyOverview"
