@@ -57,11 +57,11 @@ const ListingDetailsFiveArea = () => {
                       <h5 className="pt-30 pb-25">Property Details</h5>
                       {property_feature_list.slice(0, 1).map((item) => (
                         <div key={item.id} className="feature-list-two">
-                          <ul className="style-none d-flex flex-wrap justify-content-between">
-                            {item.feature_list.map((list, i) => (
-                              <li key={i}><span>{list.title} </span> <span className="fw-500 color-dark">{list.count}</span></li>
-                            ))}
-                          </ul>
+                          {/*<ul className="style-none d-flex flex-wrap justify-content-between">*/}
+                          {/*  {item.feature_list.map((list, i) => (*/}
+                          {/*    <li key={i}><span>{list.title} </span> <span className="fw-500 color-dark">{list.count}</span></li>*/}
+                          {/*  ))}*/}
+                          {/*</ul>*/}
                         </div>
                       ))}
                     </div>
