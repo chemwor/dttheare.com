@@ -652,7 +652,7 @@ const listing_data: DataType[] = [
       id: 1,
       page: "listing_3",
       pricing_type: "PWYW",
-      tag_bg: "sale",
+      tag_bg: "PWYW",
       bg_img: "/assets/images/listing/kingfolk.jpeg",
       carousel_thumb: [{id:"1", img: propertyLargeThumb_1 }, {id:"2", img: propertyLargeThumb_2 }, {id:"3", img: propertyLargeThumb_3 }],
       title: "Kinfolk: A New Play Reading",

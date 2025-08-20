@@ -20,6 +20,18 @@ type EventItem = {
    price_text?: string;
 };
 
+
+// 2) Helper to compute the display label
+function getPriceLabel(item: EventItem, priceNum: number) {
+   const pType = ( item.tag ?? "").toString().toLowerCase();
+   if (priceNum === 0) {
+      return pType.includes("pwyw") || pType.includes("pay")
+          ? "Pay what you want"
+          : "Free";
+   }
+   return `$${priceFormatter.format(priceNum)}`;
+}
+
 const isExternalUrl = (s: string) => /^https?:\/\//i.test(s);
 
 function normalizeSrc(src?: string): { src: string; external: boolean } {
@@ -110,8 +122,10 @@ const ListingTwoArea = ({ style }: { style?: boolean }) => {
                       {currentItems.map((item: EventItem) => {
                          // Prefer image_url; fall back to bg_img (both must be URLs)
                          const { src, external } = normalizeSrc(item.image_url ?? item.bg_img);
-                         const priceNum =
-                             typeof item.price === "string" ? Number(item.price) : item.price;
+                         // price
+                         const priceNum = typeof item.price === "string" ? Number(item.price) : item.price;
+                         const label = getPriceLabel(item, priceNum);                 // "Pay what you want" | "Free" | "$12.00"
+                         const showSuffix = priceNum > 0 && !!item.price_text;
 
                          return (
                              <div
@@ -152,9 +166,10 @@ const ListingTwoArea = ({ style }: { style?: boolean }) => {
                                       <div className="address">{item.address}</div>
 
                                       <div className="pl-footer d-flex flex-wrap align-items-center justify-content-between mt-30">
+
                                          <strong className="price fw-500 color-dark me-auto">
-                                            ${priceFormatter.format(priceNum)}
-                                            {item.price_text && (
+                                            {label}
+                                            {showSuffix && (
                                                 <>
                                                    /<sub>{item.price_text}</sub>
                                                 </>

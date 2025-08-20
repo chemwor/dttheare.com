@@ -19,10 +19,10 @@ const PropertyListingOne = () => {
                            <div className="property-info tran3s w-100">
                               <div className="d-flex align-items-center justify-content-between">
                                  <div className="pe-3">
-                                    <Link href="/listing_details_04" className="title fw-500 tran4s">{item.title}</Link>
+                                    <Link href="/listing_details_02" className="title fw-500 tran4s">{item.title}</Link>
                                     <div className="address tran4s">{item.address}</div>
                                  </div>
-                                 <Link href="/listing_details_04" className="btn-four inverse"><i className="bi bi-arrow-up-right"></i></Link>
+                                 <Link href="/listing_details_02" className="btn-four inverse"><i className="bi bi-arrow-up-right"></i></Link>
                               </div>
 
                               <div className="pl-footer tran4s">
@@ -42,7 +42,7 @@ const PropertyListingOne = () => {
                </div>
 
                <div className="text-center mt-100 md-mt-60">
-                  <Link href="/listing_06" className="btn-eight"><span>Explore All</span> <i className="bi bi-arrow-up-right"></i></Link>
+                  <Link href="/listing_02" className="btn-eight"><span>Explore All</span> <i className="bi bi-arrow-up-right"></i></Link>
                </div>
             </div>
          </div>
