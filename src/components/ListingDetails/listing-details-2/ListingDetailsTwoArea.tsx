@@ -56,6 +56,11 @@ const ListingDetailsTwoArea = ({ heroSrc = "/assets/images/listing/kingfolk.jpeg
              </div>
              <div className="row">
                 <div className="col-xl-8">
+                    <div className="property-video-tour mb-50">
+                        <CommonPropertyVideoTour />
+                    </div>
+
+
                    <div className="property-overview bg-white shadow4 border-20 p-40 mb-50">
                       <h4 className="mb-20">Overview</h4>
                       <p className="fs-20 lh-lg">
@@ -76,9 +81,6 @@ const ListingDetailsTwoArea = ({ heroSrc = "/assets/images/listing/kingfolk.jpeg
                    {/*   <CommonAmenities />*/}
                    {/*</div>*/}
 
-                   <div className="property-video-tour mb-50">
-                      <CommonPropertyVideoTour />
-                   </div>
 
                    {/*<CommonPropertyFloorPlan style={false} />*/}
 
