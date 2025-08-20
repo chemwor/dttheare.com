@@ -9,6 +9,7 @@ import icon from "@/assets/images/icon/icon_46.svg";
 
 // Types for items coming from your hook/DB
 type EventItem = {
+   pricing_type: string;
    id: number;
    title: string;
    address: string;
@@ -23,7 +24,7 @@ type EventItem = {
 
 // 2) Helper to compute the display label
 function getPriceLabel(item: EventItem, priceNum: number) {
-   const pType = ( item.tag ?? "").toString().toLowerCase();
+   const pType = ( item.pricing_type ?? "").toString().toLowerCase();
    if (priceNum === 0) {
       return pType.includes("pwyw") || pType.includes("pay")
           ? "Pay what you want"

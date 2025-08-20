@@ -6,7 +6,7 @@ import { useState } from "react"
 import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
 
-import logo_1 from "@/assets/images/logo/logo_09.svg";
+import logo_1 from "@/assets/images/logo/img.png";
 
 const HeaderFive = ({ style }: any) => {
    const { sticky } = UseSticky();

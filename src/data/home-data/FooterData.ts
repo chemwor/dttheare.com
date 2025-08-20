@@ -63,7 +63,7 @@ const footer_data: DataType[] = [
       page: "home_4",
       widget_class: "col-lg-2",
       widget_title: "Links",
-      footer_link: [{ link: "/", link_title: "Home" }, { link: "/dashboard/membership", link_title: "Membership" }, { link: "/about_us_01", link_title: "About Company" }, { link: "/blog_01", link_title: "Blog" },]
+      footer_link: [{ link: "/", link_title: "Home" }, { link: "/dashboard/membership", link_title: "Events" }, { link: "/about_us_01", link_title: "About Company" }, { link: "/blog_01", link_title: "Blog" },]
    },
    {
       id: 2,
@@ -88,7 +88,7 @@ const footer_data: DataType[] = [
       widget_class: "col-lg-3 ms-auto",
       widget_class2: "ps-xl-5",
       widget_title: "Links",
-      footer_link: [{ link: "/", link_title: "Home" }, { link: "/dashboard/membership", link_title: "Membership" }, { link: "/about_us_01", link_title: "About Company" }, { link: "/blog_01", link_title: "Blog" }, { link: "/blog_02", link_title: "Explore Careers" }, { link: "/pricing_02", link_title: "Pricing" }, { link: "/dashboard/dashboard-index", link_title: "Dashboard" },]
+      footer_link: [{ link: "/", link_title: "Home" }, { link: "/listing_02", link_title: "Events" }, { link: "/about_us_01", link_title: "Contact" }, ]
    },
    {
       id: 2,
@@ -96,13 +96,6 @@ const footer_data: DataType[] = [
       page: "home_5",
       widget_title: "Legal",
       footer_link: [{ link: "/faq", link_title: "Terms & conditions" }, { link: "/faq", link_title: "Cookie" }, { link: "/faq", link_title: "Privacy policy" }, { link: "/faq", link_title: "Faq’s" },]
-   },
-   {
-      id: 3,
-      widget_class: "col-lg-2",
-      page: "home_5",
-      widget_title: "New Listing",
-      footer_link: [{ link: "/listing_01", link_title: "​Buy Apartments" }, { link: "/listing_02", link_title: "Buy Condos" }, { link: "listing_03", link_title: "Rent Houses" }, { link: "listing_04", link_title: "Rent Industrial" }, { link: "/listing_05", link_title: "Buy Villas" }, { link: "/listing_06", link_title: "Rent Office" },]
    },
 ]
 

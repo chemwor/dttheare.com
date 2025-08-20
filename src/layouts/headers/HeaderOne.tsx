@@ -6,7 +6,7 @@ import { useState } from "react"
 import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
 
-import logo_1 from "@/assets/images/logo/logo_01.svg";
+import logo_1 from "@/assets/images/logo/img_1.png";
 
 const HeaderOne = ({ style }: any) => {
    

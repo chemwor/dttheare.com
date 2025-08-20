@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
 
-import dashboardLogo from "@/assets/images/logo/logo_01.svg";
+import dashboardLogo from "@/assets/images/logo/img_1.png";
 import dashboardIconActive_1 from "@/assets/images/dashboard/icon/icon_1_active.svg";
 import dashboardIcon_1 from "@/assets/images/dashboard/icon/icon_1.svg";
 import dashboardIconActive_2 from "@/assets/images/dashboard/icon/icon_2_active.svg";

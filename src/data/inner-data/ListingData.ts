@@ -692,7 +692,7 @@ const listing_data: DataType[] = [
       address: "700 Hank Aaron Dr SE, Atlanta, GA 30315",
       location: "Giza, Egypt",
       property_info: { sqft: 1070, bed: "03", bath: "01", kitchen: "01" },
-      price: 43000,
+      price: 0,
       end_at: "Sell Houses",
       status: "Best Seller",
       amenities: ["Swimming Pool", "Parking", "Wifi", "Pet Friendly", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
